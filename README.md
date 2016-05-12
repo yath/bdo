@@ -143,7 +143,7 @@ protected Class findClass(String clazz) {
   
   * If `this.ο` is not an `Integer`
     or `intValue()` throws an exception,
-    `DexFile#loadClass(String, ClassLoader` ([docs)](https://developer.android.com/reference/dalvik/system/DexFile.html#loadClass(java.lang.String,%20java.lang.ClassLoader)))
+    `DexFile#loadClass(String, ClassLoader)` ([docs)](https://developer.android.com/reference/dalvik/system/DexFile.html#loadClass(java.lang.String,%20java.lang.ClassLoader)))
     is invoked and its return value returned. This is presumably to mimick a
     “normal” class loader.
 
