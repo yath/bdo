@@ -124,7 +124,8 @@ protected Class findClass(String clazz) {
 
 * `static Object o.bdo$ᒫ#Τ()` apparently exports a [Cipher](https://docs.oracle.com/javase/7/docs/api/javax/crypto/Cipher.html)
   suitable for for decryption. I tried to decrypt other files on my phone with
-  it, but without success. I did not spend that much time on it though.
+  it, but without success (defined by `file` returning something useful
+  on the output). I did not spend that much time on it though.
 
 * `Class o.bdo$ᒫ#Τ(String s)` invokes `loadClass(s, false)`. [loadClass](https://docs.oracle.com/javase/7/docs/api/java/lang/ClassLoader.html#loadClass(java.lang.String,%20boolean))
   is not overridden in `o.bdo$ᒫ`, so it uses `ClassLoader`’s implementation
