@@ -46,7 +46,7 @@ class bdo$ᒫ extends ClassLoader {
 
     protected Class findClass(string); // from ClassLoader
 
-    Class Τ(String); // Also ο (\u03A4) but different signature, instance method
+    Class Τ(String); // Also Τ (\u03A4) but different signature, instance method
                      // and default visibility.
 }
 ```
